@@ -1,0 +1,2 @@
+ccache /home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libdrivers__sensor__nrf5.a CMakeFiles/drivers__sensor__nrf5.dir/temp_nrf5.c.obj
+ccache /home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libdrivers__sensor__nrf5.a

@@ -1,0 +1,50 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/stm32/stm32cube/stm32f4xx/drivers/src/stm32f4xx_hal.c" "/home/huynhtai/tmp/zephyrproject/blinky_stm32/modules/stm32/stm32cube/CMakeFiles/..__modules__hal__stm32__stm32cube.dir/stm32f4xx/drivers/src/stm32f4xx_hal.c.obj"
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/stm32/stm32cube/stm32f4xx/drivers/src/stm32f4xx_hal_rcc.c" "/home/huynhtai/tmp/zephyrproject/blinky_stm32/modules/stm32/stm32cube/CMakeFiles/..__modules__hal__stm32__stm32cube.dir/stm32f4xx/drivers/src/stm32f4xx_hal_rcc.c.obj"
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/stm32/stm32cube/stm32f4xx/drivers/src/stm32f4xx_ll_tim.c" "/home/huynhtai/tmp/zephyrproject/blinky_stm32/modules/stm32/stm32cube/CMakeFiles/..__modules__hal__stm32__stm32cube.dir/stm32f4xx/drivers/src/stm32f4xx_ll_tim.c.obj"
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/stm32/stm32cube/stm32f4xx/drivers/src/stm32f4xx_ll_utils.c" "/home/huynhtai/tmp/zephyrproject/blinky_stm32/modules/stm32/stm32cube/CMakeFiles/..__modules__hal__stm32__stm32cube.dir/stm32f4xx/drivers/src/stm32f4xx_ll_utils.c.obj"
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/stm32/stm32cube/stm32f4xx/soc/system_stm32f4xx.c" "/home/huynhtai/tmp/zephyrproject/blinky_stm32/modules/stm32/stm32cube/CMakeFiles/..__modules__hal__stm32__stm32cube.dir/stm32f4xx/soc/system_stm32f4xx.c.obj"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "BUILD_VERSION=zephyr-v2.3.0-1522-ge90873f290e2"
+  "CORE_CM4"
+  "HSE_VALUE=8000000"
+  "KERNEL"
+  "STM32F407xx"
+  "USE_FULL_LL_DRIVER"
+  "USE_HAL_DRIVER"
+  "_FORTIFY_SOURCE=2"
+  "__PROGRAM_START"
+  "__ZEPHYR__=1"
+  )
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/home/huynhtai/tmp/zephyrproject/zephyr/include"
+  "zephyr/include/generated"
+  "/home/huynhtai/tmp/zephyrproject/zephyr/soc/arm/st_stm32/stm32f4"
+  "/home/huynhtai/tmp/zephyrproject/zephyr/drivers"
+  "/home/huynhtai/tmp/zephyrproject/zephyr/soc/arm/st_stm32/common"
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/cmsis/CMSIS/Core/Include"
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/stm32/stm32cube/stm32f4xx/soc"
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/stm32/stm32cube/stm32f4xx/drivers/include"
+  "/home/huynhtai/tmp/zephyrproject/modules/hal/stm32/stm32cube/stm32f4xx/drivers/include/Legacy"
+  "/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/include"
+  "/home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/9.2.0/include"
+  "/home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/9.2.0/include-fixed"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,2 @@
+ccache /home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libboards__arm__stm32f4_disco.a CMakeFiles/boards__arm__stm32f4_disco.dir/pinmux.c.obj
+ccache /home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libboards__arm__stm32f4_disco.a

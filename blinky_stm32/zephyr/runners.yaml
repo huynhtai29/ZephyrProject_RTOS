@@ -1,0 +1,31 @@
+# Available runners configured by board.cmake.
+runners:
+- openocd
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: openocd
+
+# Default debug runner if --runner is not given.
+debug-runner: openocd
+
+# Default command line arguments. The ones in "common" are always given.
+# The other sub-keys give runner-specific arguments.
+args:
+  common:
+  - --board-dir=/home/huynhtai/tmp/zephyrproject/zephyr/boards/arm/stm32f4_disco
+  - --elf-file=/home/huynhtai/tmp/zephyrproject/blinky_stm32/zephyr/zephyr.elf
+  - --hex-file=/home/huynhtai/tmp/zephyrproject/blinky_stm32/zephyr/zephyr.hex
+  - --bin-file=/home/huynhtai/tmp/zephyrproject/blinky_stm32/zephyr/zephyr.bin
+  - --gdb=/home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb
+  - --openocd=/home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
+  - --openocd-search=/home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts
+  openocd:
+    - --cmd-load
+    - flash write_image erase
+    - --cmd-verify
+    - verify_image
+  jlink:
+    - --dt-flash=y
+    - --device=STM32F407VG
+    - --speed=4000

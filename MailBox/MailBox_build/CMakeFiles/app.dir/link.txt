@@ -1,0 +1,2 @@
+ccache /home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc app/libapp.a CMakeFiles/app.dir/src/main.c.obj
+ccache /home/huynhtai/Downloads/ebook_RTOS/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib app/libapp.a

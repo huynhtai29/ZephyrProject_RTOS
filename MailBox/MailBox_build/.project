@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>blinky@MailBox_build</name>
+	<comment></comment>
+	<projects></projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j4</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments/>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/Zephyr-Kernel</name>
+			<type>2</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr</location>
+		</link>
+		<link>
+			<name>[Subprojects]/civetweb</name>
+			<type>2</type>
+			<location>/home/huynhtai/tmp/zephyrproject/modules/lib/civetweb</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/Source Files/main.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/MailBox/src/main.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] app/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/Source Files/empty_file.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/misc/empty_file.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/Source Files/isr_tables.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build/zephyr/isr_tables.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/CMake Rules/isr_tables.c.rule</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build/zephyr/isr_tables.c.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_final/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/Source Files/empty_file.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/misc/empty_file.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zephyr_prebuilt/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/Source Files/empty_file.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/misc/empty_file.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] app_smem_unaligned_prebuilt/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/Source Files/offsets.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/offsets/offsets.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] offsets/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/crc32_sw.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/crc32_sw.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/crc16_sw.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/crc16_sw.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/crc8_sw.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/crc8_sw.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/crc7_sw.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/crc7_sw.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/dec.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/dec.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/fdtable.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/fdtable.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/hex.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/hex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/mempool.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/mempool.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/notify.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/notify.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/printk.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/printk.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/onoff.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/onoff.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/rb.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/rb.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/sem.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/sem.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/thread_entry.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/thread_entry.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/timeutil.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/timeutil.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/work_q.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/work_q.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/heap.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/heap.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/heap-validate.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/heap-validate.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/mutex.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/os/mutex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/configs.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build/zephyr/misc/generated/configs.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/validate_base_addresses.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/soc/arm/nordic_nrf/validate_base_addresses.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/validate_enabled_instances.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/soc/arm/nordic_nrf/validate_enabled_instances.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/power.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/subsys/power/power.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/policy_residency.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/subsys/power/policy/policy_residency.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/uart_console.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/drivers/console/uart_console.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/nrf_power_clock.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/drivers/clock_control/nrf_power_clock.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/sys_clock_init.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/drivers/timer/sys_clock_init.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/nrf_rtc_timer.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/drivers/timer/nrf_rtc_timer.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/SEGGER_RTT.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/modules/debug/segger/rtt/SEGGER_RTT.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Source Files/SEGGER_RTT_zephyr.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/modules/debug/segger/rtt/SEGGER_RTT_zephyr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] zephyr/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/Source Files/kobject_hash.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build/zephyr/kobject_hash.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/CMake Rules/kobject_hash.c.rule</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build/zephyr/kobject_hash.c.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/CMake Rules/kobject_hash_preprocessed.c.rule</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build/zephyr/kobject_hash_preprocessed.c.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/CMake Rules/kobject_hash.gperf.rule</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/MailBox/MailBox_build/zephyr/kobject_hash.gperf.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] output_lib/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/Source Files/isr_tables.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/common/isr_tables.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/Source Files/sw_isr_common.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/common/sw_isr_common.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__common/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32//swap_helper.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/swap_helper.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32//cpu_idle.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cpu_idle.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32//nmi_on_reset.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/nmi_on_reset.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32//isr_wrapper.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/isr_wrapper.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32//userspace.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/userspace.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Source Files/swap.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/swap.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Source Files/irq_manage.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/irq_manage.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Source Files/thread.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/thread.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Source Files/fatal.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/fatal.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Source Files/nmi.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/nmi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Source Files/prep_c.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/prep_c.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m//vector_table.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/vector_table.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m//reset.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/reset.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m//fault_s.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/fault_s.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m//exc_exit.S</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/exc_exit.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Source Files/fault.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/fault.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Source Files/scb.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/scb.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Source Files/irq_init.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/irq_init.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Source Files/thread_abort.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/thread_abort.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/Source Files/arm_core_mpu.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/mpu/arm_core_mpu.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/Source Files/arm_mpu.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/arch/arm/core/aarch32/cortex_m/mpu/arm_mpu.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] arch__arm__core__aarch32__cortex_m__mpu/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/atoi.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdlib/atoi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/strtol.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdlib/strtol.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/strtoul.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdlib/strtoul.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/malloc.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdlib/malloc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/bsearch.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdlib/bsearch.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/exit.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdlib/exit.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/strncasecmp.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/string/strncasecmp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/strstr.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/string/strstr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/string.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/string/string.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/strspn.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/string/strspn.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/prf.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdout/prf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/stdout_console.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdout/stdout_console.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/sprintf.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdout/sprintf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/fprintf.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/stdout/fprintf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Source Files/gmtime.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/libc/minimal/source/time/gmtime.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__libc__minimal/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/Source Files/pthread_common.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/posix/pthread_common.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/Source Files/nanosleep.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/lib/posix/nanosleep.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lib__posix/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/Source Files/arm_mpu_regions.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/soc/arm/common/cortex_m/arm_mpu_regions.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__common__cortex_m/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/Source Files/soc.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/soc/arm/nordic_nrf/nrf52/soc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/Source Files/power.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/soc/arm/nordic_nrf/nrf52/power.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] soc__arm__nordic_nrf__nrf52/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/Source Files/gpio_nrfx.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/drivers/gpio/gpio_nrfx.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/Source Files/gpio_handlers.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/drivers/gpio/gpio_handlers.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__gpio/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/Source Files/uart_nrfx_uart.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/drivers/serial/uart_nrfx_uart.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/Source Files/uart_handlers.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/drivers/serial/uart_handlers.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] drivers__serial/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/Source Files/system_nrf52.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/modules/hal/nordic/nrfx/mdk/system_nrf52.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/Source Files/nrfx_glue.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/modules/hal/nordic/nrfx_glue.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ..__modules__hal__nordic/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/device.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/device.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/errno.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/errno.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/fatal.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/fatal.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/idle.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/idle.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/init.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/init.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/kheap.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/kheap.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/mailbox.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/mailbox.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/mem_slab.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/mem_slab.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/mempool.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/mempool.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/msg_q.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/msg_q.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/mutex.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/mutex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/pipes.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/pipes.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/queue.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/queue.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/sched.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/sched.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/sem.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/sem.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/stack.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/stack.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/system_work_q.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/system_work_q.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/thread.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/thread.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/thread_abort.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/thread_abort.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/version.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/version.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/work_q.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/work_q.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/smp.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/smp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/timeout.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/timeout.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/timer.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/timer.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/futex.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/futex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/mem_domain.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/mem_domain.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/userspace_handler.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/userspace_handler.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Source Files/userspace.c</name>
+			<type>1</type>
+			<location>/home/huynhtai/tmp/zephyrproject/zephyr/kernel/userspace.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kernel/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
